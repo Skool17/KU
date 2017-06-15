@@ -6,10 +6,9 @@ using namespace std;
 
 func_diskr()
 {
-	setlocale(LC_ALL,"Russian");
 	int a,b,c;
 	double x1,x2,x,D;
-	cout << "Введите коэффициенты уравнения" << endl;
+	cout << "Please enter СЃoefficients" << endl;
 	cin >> a;
 	cin >> b;
 	cin >> c;
@@ -28,12 +27,12 @@ func_diskr()
 	}
 	if (D<0)
 	{
-		cout << "Корней нет" << endl;
+		cout << "No solutions" << endl;
 	}
 }
 
 int main()
 {
-//	func_diskr();
+	func_diskr();
 }
 
